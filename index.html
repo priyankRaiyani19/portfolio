@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div id="container">
+    <div id="nav">
+        <div id="logo-nav">
+            <h1>Portfolio </h1>
+        </div>
+        <div id="nav-parts">
+            <div class="nav-elements">
+                <a href="#project1"> Projects </a>
+            </div>
+            <div class="nav-elements">
+                <a href="#skill-img-container">
+                Skills</a>
+            </div>
+            <div class="nav-elements">
+                <a>Contact me </a>
+            </div>
+        </div>
+    </div>
+    <div id="profile_container">
+        <div id="profile">
+            <div id="myimg">
+                <img src="img/profile.jpg "></img>
+            </div>
+            <div id="pro-detail">
+                <h2>Priyank J. Raiyani</h2>
+                <br>
+                <pre>Hello! I'm Priyank Raiyani, a passionate MERN stack developer.
+I'm currently a third-year student pursuing a B.Tech. degree in Computer Engineering.
+
+My journey in the world of technology has been an exhilarating experience.
+I thrive on turning innovative ideas into real-world solutions.
+
+I specialize in:
+    - Building web applications
+    - Crafting responsive user interfaces
+    - Diving into the intricacies of backend development
+    - I'm always excited to take on new challenges.
+
+                </pre>
+            </div>
+        </div>
+    </div>
+    <div class="faddedbar">
+        <div class="faddedtext"> Projects </div>
+    </div>
+    <div id="project-container">
+        <div id="project1">
+            <div class="project-number project-number-right"> 01 </div>
+            <div class="project-text">
+                <h2> Parallax web </h2>
+            </div>
+            <div class="project-img ">
+                <img src="img/parallax.png">
+            </div>
+        </div>
+    </div>
+    <div class="faddedbar skillbar">
+        <div class="faddedtext"> skills </div>
+    </div>
+    <div id="skills">
+<!--        <div class="skill-detail"> This is my skills </div>-->
+        <div id="skill-img-container">
+            <div class="img-part-main">
+                <div id="img-part1">
+                    <div class="skills-img 1">
+                        <img src="img/HTML.png" />
+                    </div>
+                    <div class="skills-img 2">
+                        <img src="img/CSS.png" alt="">
+                    </div>
+                    <div class="skills-img 3">
+                        <img src="img/Javascript.svg" />
+                    </div>
+                    <div class="skills-img 4">
+                        <img src="img/Bootstrap.svg" />
+                    </div>
+                    <div class="skills-img img5">
+                        <img src="img/Tailwind.png" />
+                    </div>
+                </div>
+                <div id="img-part2">
+                    <div class="skills-img img6">
+                        <img src="img/NodeJs.svg" height="800" width="800" />
+                    </div>
+                    <div class="skills-img img7">
+                        <img src="img/React.png" height="800" width="800" />
+                    </div>
+                    <div class="skills-img img8">
+                        <img src="img/MongoDB.svg" height="800" width="800" />
+                    </div>
+                    <div class="skills-img img9">
+                        <img src="img/Git.svg" height="800" width="800" />
+                    </div>
+                    <div class="skills-img img10">
+                        <img src="img/Github.svg" height="800" width="800" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="faddedbar contactfadded">
+
+        <div class="faddedtext"> contact me </div>
+
+    </div>
+    <div id="contact-container">
+
+
+    </div>
+</div>
+<div class="cursor1"></div>
+<div class="cursor2"></div>
+<script>
+    var cursor1 = document.querySelector(".cursor1");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove", function(e) {
+        cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    })
+</script>
+</body>
+</html>
