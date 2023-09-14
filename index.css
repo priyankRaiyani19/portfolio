@@ -329,3 +329,50 @@
 .img-part-main:hover .skills-img:hover {
     filter: blur(0px);
 }
+.input{
+    background-color: transparent;
+}
+#contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.namecontact{
+    margin-left: 50px;
+    flex-direction: row;
+
+}
+#contactdetail{
+    margin-left: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top:60px;
+    /*background-color: var(--colorSecondary);*/
+    width: 750px;
+
+}
+label{
+    font-size: 25px;
+    line-height: 1.2;
+}
+input{
+    column-gap: normal;
+    margin-left: 5px;
+    box-shadow: #453cc9;
+    height: 35px;
+
+
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #d4e6ff ;
+    opacity: 1; /* Firefox */
+}
+button{
+    padding: 10px;
+    background-color: rgba(119, 136, 210, 0.93);
+    margin-left: 270px;
+    font-size: 20px;
+    font-family: Arial sans-serif ;
+
+}

@@ -20,7 +20,7 @@
                 Skills</a>
             </div>
             <div class="nav-elements">
-                <a>Contact me </a>
+                <a href="#contact-container">Contact me </a>
             </div>
         </div>
     </div>
@@ -112,12 +112,48 @@ I specialize in:
 
     </div>
     <div id="contact-container">
+        <div id="contactdetail">
+        <div class="namecontact">
+            <label class="contactlabel">
+                Name:
+            </label>
+<!--            <input type="text" class="input" size="50" placeholder="Enter Your Fullname" width="48" height="48 name="contact" id="name"> -->
+            <input type="text"  size="50" class="input" placeholder="Enter your name" name="contact name" id="name">
+
+        </div>
+            <div class="namecontact">
+            <label class="contactlabel">
+                Contactno:
+            </label>
+            <input type="number"  size="50" class="input" placeholder="xxxxxxxxxx" name="contact name" id="contactno">
+
+        </div>
+        <div class="namecontact">
+            <label class="contactlabel">
+             Email:
+            </label>
+            <input type="email" class="input" size="50" placeholder="xyz@gmail.com" name="contact name" id="mail"  >
+
+        </div>
+        <div class="namecontact">
+            <label class="contactlabel">
+             Description:
+            </label>
+         <textarea class="input textarea" placeholder="enter the message" cols="75" rows="5" ></textarea>
+
+        </div>
+        <div class="namecontact">
+            <button type="submit" class="btn-pink" id="submit-btn">
+                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
+            </button>
+        </div>
 
 
     </div>
 </div>
-<div class="cursor1"></div>
-<div class="cursor2"></div>
+</div>
+<!--<div class="cursor1"></div>-->
+<!--<div class="cursor2"></div>-->
 <script>
     var cursor1 = document.querySelector(".cursor1");
     var cursor2 = document.querySelector(".cursor2");
