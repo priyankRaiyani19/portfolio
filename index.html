@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>index</title>
     <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <div id="container">
@@ -106,60 +107,109 @@ I specialize in:
             </div>
         </div>
     </div>
-    <div class="faddedbar contactfadded">
+<!--    <div class="faddedbar contactfadded">-->
 
-        <div class="faddedtext"> contact me </div>
+<!--        <div class="faddedtext"></div>-->
+
+<!--    </div>-->
+    <div class="contectus-form-container">
+
+        <div class="container">
+
+            <h1 class="contectus-heading" id="contectme">Contect Me</h1>
+
+            <h3 class="contectus-sub-heading">
+                Questions, thoughts, or just want to say hello?
+            </h3>
+
+            <div class="contectus-form-container">
+                <form action="thank.html" class="form">
+
+                    <div class="formfield-container">
+
+                        <input class="formfield"
+                               type="text"
+                               name="name"
+
+                               placeholder="Enter your name" />
+
+                        <input class="formfield"
+                               type="email"
+                               name="email"
+
+                               placeholder="Enter your email address" />
+
+                        <input class="formfield"
+                               type="text"
+                               name="subject"
+
+                               placeholder="Enter your subject" />
+
+                        <textarea name="message"
+                                  id="" cols="30" rows="10"
+                                  class="formfield formfield-textarea"
+                                  placeholder="Enter your message"></textarea>
+
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn-pink" id="submit-btn">
+                            Send Message
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
 
     </div>
-    <div id="contact-container">
-        <div id="contactdetail">
-        <div class="namecontact">
-            <label class="contactlabel">
-                Name:
-            </label>
-<!--            <input type="text" class="input" size="50" placeholder="Enter Your Fullname" width="48" height="48 name="contact" id="name"> -->
-            <input type="text"  size="50" class="input" placeholder="Enter your name" name="contact name" id="name">
 
-        </div>
-            <div class="namecontact">
-            <label class="contactlabel">
-                Contactno:
-            </label>
-            <input type="number"  size="50" class="input" placeholder="xxxxxxxxxx" name="contact name" id="contactno">
+    <footer>
+        <div class="container" >
+            <div class="footer-wrapper">
+                <div class="footer-faded-text">P.j.Raiyani</div>
 
-        </div>
-        <div class="namecontact">
-            <label class="contactlabel">
-             Email:
-            </label>
-            <input type="email" class="input" size="50" placeholder="xyz@gmail.com" name="contact name" id="mail"  >
+<!--                <div class="link-wrapper">-->
+<!--                    <div>-->
+<!--                        <a href="#project1">Projects</a>-->
+<!--                    </div>-->
 
-        </div>
-        <div class="namecontact">
-            <label class="contactlabel">
-             Description:
-            </label>
-         <textarea class="input textarea" placeholder="enter the message" cols="75" rows="5" ></textarea>
+<!--                    <div>-->
+<!--                        <a href="#skills">Skills</a>-->
+<!--                    </div>-->
 
+<!--                    <div>-->
+<!--                        <a href="#">Contect Me</a>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+                <div class="icon-wrapper">
+                    <a href="https://www.linkedin.com/in/priyank-raiyani-702b61223"> <i class="fa-brands fa-linkedin icon"></i> </a>
+                    <a href="https://github.com/priyankRaiyani19"> <i class="fa-brands fa-github icon"></i> </a>
+                    <a href="https://x.com/P_j_raiyani?t=04G2l3HA6WrExw3VJSlDTg&s=09"> <i class="fa-brands fa-twitter icon"></i></a>
+                    <a href="https://instagram.com/_priyank_raiyani_?igshid=OGQ5ZDc2ODk2ZA=="> <i class="fa-brands fa-instagram icon" ></i></a>
+                    <a href="mail.html"> <i class="fa-regular fa-envelope icon"></i></a>
+                </div>
+
+            </div>
         </div>
-        <div class="namecontact">
-            <button type="submit" class="btn-pink" id="submit-btn">
-                Send Message <i class="submit-icon fa-solid fa-paper-plane"></i>
-            </button>
-        </div>
+    </footer>
 
 
     </div>
-</div>
-</div>
+<script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>-->
 <!--<div class="cursor1"></div>-->
 <!--<div class="cursor2"></div>-->
-<script>
-    var cursor1 = document.querySelector(".cursor1");
-    var cursor2 = document.querySelector(".cursor2");
-    document.addEventListener("mousemove", function(e) {
-        cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
-    })
-</script>
+<!--<script>-->
+<!--    var cursor1 = document.querySelector(".cursor1");-->
+<!--    var cursor2 = document.querySelector(".cursor2");-->
+<!--    document.addEventListener("mousemove", function(e) {-->
+<!--        cursor1.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";-->
+<!--    })-->
+
+<!--</script>-->
 </body>
 </html>
